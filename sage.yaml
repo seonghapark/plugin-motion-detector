@@ -12,7 +12,7 @@ source:
     - "linux/amd64"
     - "linux/arm64"
   url: "https://github.com/waggle-sensor/plugin-motion-detector"
-  branch: main
+  branch: oneshot
 testing:
   mask_entrypoint: true
   command: ["python3", "-m", "unittest"]
